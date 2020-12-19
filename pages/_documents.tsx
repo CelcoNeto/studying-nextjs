@@ -1,9 +1,9 @@
 import Document, {
   DocumentProps,
+  Head,
   Html,
   Main,
   NextScript,
-  Head,
 } from 'next/document';
 class MyDocuments extends Document<DocumentProps> {
   render(): JSX.Element {
@@ -11,8 +11,8 @@ class MyDocuments extends Document<DocumentProps> {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
-            rel="stylesheet"
+            href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap'
+            rel='stylesheet'
           />
         </Head>
         <body>
